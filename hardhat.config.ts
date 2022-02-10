@@ -6,7 +6,6 @@
 
  import "@nomiclabs/hardhat-waffle";
  import "hardhat-typechain";
-//  import '@eth-optimism/hardhat-ovm';
  
  const config: HardhatUserConfig = {
      defaultNetwork: "hardhat",
@@ -22,10 +21,6 @@
         },
         gasPrice: 0
       }
-       // rinkeby: {
-       //   url: `https://ropsten.infura.io/v3/5e51ff14ecd24a7faf37b5311c4bd61e`,
-       //   accounts: [RINKEBY_PRIVATE_KEY],
-       // },
      },  
  };
  export default config;

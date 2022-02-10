@@ -10,11 +10,8 @@ import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
 import delay = require("delay");
 import { BigNumber } from "ethers";
 
-// const assertArrays = require('chai-arrays');  -- TODO: ask Johnny why thus import does not work ?
-// chai.use(assertArrays);
-
-chai.use(solidity);     //TODO: ask Johnny how it works
-const {expect} = chai;  //TODO: ask Johnny how it works
+chai.use(solidity);     
+const {expect} = chai;
 
 
 describe("L1Root", () => {
