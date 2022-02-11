@@ -1,6 +1,8 @@
 # NFTree
 Send tree like graph structure that could represent evolution of NFT.
 
+This is a version 2.0, rewritten, fixed and adjusted to work with Optimism 1.0. It originates from not [working version for Optimism 1.0](https://github.com/johnnieskywalker/NFTree) that I was building with a great team during ETH Global hackathon.
+
 
 ### -> get all dependencies
 `yarn install`
